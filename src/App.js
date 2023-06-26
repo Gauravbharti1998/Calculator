@@ -11,6 +11,7 @@ function App() {
     setVal("0");
   }
   const equalbtn=()=>{
+    //eslint-disable-next-line
     setVal(eval(val));
   }
   const addInput=(inp)=>
