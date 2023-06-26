@@ -6,7 +6,7 @@ function App() {
 
   const onChangeHandler=(e)=>{
     setVal( e.target.value); 
-  };
+  };    
   const acbtn=()=>{
     setVal("0");
   }
